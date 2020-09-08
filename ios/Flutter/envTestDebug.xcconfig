@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main-envTest.dart
+
+ASSET_PREFIX=envTest
+BUNDLE_NAME=T flavorpodsissue

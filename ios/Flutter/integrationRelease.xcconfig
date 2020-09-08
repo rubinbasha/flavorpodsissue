@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main-integration.dart
+
+ASSET_PREFIX=integration
+BUNDLE_NAME=I flavorpodsissue
