@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flavor_pods_issue_prod",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main-production.dart",
+            "args": [
+                "--flavor",
+                "production",
+            ]
+        },
+        {
+            "name": "flavor_pods_issue_int",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main-integration.dart",
+            "args": [
+                "--flavor",
+                "integration"
+            ]
+        },
+        {
+            "name": "flavor_pods_issue_test",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main-envTest.dart",
+            "args": [
+                "--flavor",
+                "envTest"
+            ]
+        },
+        {
+            "name": "flavor_pods_issue_prod_release_android",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main-production.dart",
+            "args": [
+                "--release",
+                "--flavor",
+                "production",
+            ]
+        }
+    ]
+}
